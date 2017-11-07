@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "357734790763",
+    "firebase_url": "https://lapor-2edaa.firebaseio.com",
+    "project_id": "lapor-2edaa",
+    "storage_bucket": "lapor-2edaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357734790763:android:e700ca6b0d269339",
+        "android_client_info": {
+          "package_name": "com.malang.lapor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357734790763-69hq3d6spau27ql7h5iq8pe5djrn8bum.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCly149Rtj2PnTdJ1tIATLxqqyrNh5ZqhI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

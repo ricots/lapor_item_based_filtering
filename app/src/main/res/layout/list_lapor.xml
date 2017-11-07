@@ -1,0 +1,101 @@
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="320px"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_margin="5dp"
+    card_view:cardCornerRadius="5dp"
+    android:background="@drawable/custom_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/custom_bg">
+
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/image_view"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/kampung"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="8dp"  />
+
+
+        <!---movie title-->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/custom_bg">
+
+            <TextView
+                android:id="@+id/emailnya"
+                android:textSize="12dp"
+                android:text="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/id_lapor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/image_view"
+                android:layout_toRightOf="@+id/image_view"
+                android:text="ya allah"
+                android:textSize="7dp" />
+
+            <TextView
+                android:id="@+id/judul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/image_view"
+                android:layout_toRightOf="@+id/image_view"
+                android:text="judul"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/proses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="proses"
+                android:maxLines="1"
+                android:layout_alignTop="@+id/image_view"
+                android:layout_below="@+id/nama_kampus"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="rating"
+                android:maxLines="1"
+                android:layout_alignTop="@+id/image_view"
+                android:layout_below="@+id/nama_kampus"
+                android:textSize="12dp" />
+
+            <RatingBar
+                android:id="@+id/ratingBar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp" />
+
+            <Button
+                android:id="@+id/btnrating"
+                android:text="simpan rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

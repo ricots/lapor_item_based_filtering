@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:id="@+id/judul_rekom"
+            android:text="judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:layout_below="@+id/judul_rekom"
+            android:id="@+id/img_rekomendasi"
+            android:layout_width="60dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="60dp"
+            android:src="@drawable/kab"/>
+
+        <TextView
+            android:visibility="gone"
+            android:layout_below="@+id/img_rekomendasi"
+            android:text="hallo"
+            android:id="@+id/id_lapor_rekomendasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_below="@+id/id_lapor_rekomendasi"
+            android:text="hallo"
+            android:id="@+id/ratingnya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_below="@+id/ratingnya"
+            android:text="loha"
+            android:id="@+id/rating_lapor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:visibility="gone"
+            android:layout_below="@+id/rating_lapor"
+            android:text="loha"
+            android:id="@+id/total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_below="@+id/total"
+            android:text="loha"
+            android:id="@+id/hasilnya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:id="@+id/vw_divider"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/hasilnya"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="0.4dp"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>
